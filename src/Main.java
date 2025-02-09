@@ -39,7 +39,7 @@ public class Main {
         if (deliveryDistance < 20) {
             System.out.println("Доставка в пределах 20 км - " + oneDayDelivery + " сутки");
         } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
-            System.out.println("Доставка в пределах от 20 км до 60 км - " + treeDayDelivery + " суток");
+            System.out.println("Доставка в пределах от 20 км до 60 км - " + twoDayDelivery + " суток");
         } else if (deliveryDistance >= 60 && deliveryDistance < 100) {
             System.out.println("Доставка в пределах 60 км до 100 км - " + treeDayDelivery + " суток");
         } else if (deliveryDistance >= 100) {
